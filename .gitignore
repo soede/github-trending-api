@@ -1,0 +1,47 @@
+# Ignore IDE settings
+.idea/
+*.iml
+
+# Node modules (both client and server)
+server/node_modules/
+client/node_modules/
+node_modules/
+
+
+
+# Dependencies
+.pnp/
+.pnp.js
+
+# Logs
+server/npm-debug.log*
+client/npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+server/.env
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Build outputs (both client and server)
+server/dist/
+server/build/
+client/build/
+
+# Coverage (for testing)
+client/coverage/
+
+# Temporary files
+server/tmp/
+server/temp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+client/.DS_Store
+npm-debug.log*
