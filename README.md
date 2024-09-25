@@ -18,7 +18,7 @@ The GitHub Trending API is a simple application that fetches and displays trendi
 ### Installation
 
 1. Clone the repository:
-    git clone https://github.com/<your-username>/github-trending-api.git
+    git clone https://github.com/soede/github-trending-api.git
 2. Navigate to the project directory:
     npm install
 
